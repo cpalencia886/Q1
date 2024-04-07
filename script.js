@@ -49,7 +49,7 @@ function updateWeatherImage(description) {
             imagePath = './media/rain.png';
             break;
         case 'cloudy':
-            imagePath = 'media/cloudy.png';
+            imagePath = './media/cloudy.png';
             break;
         case 'stormy':
         case 'thunderstorm':
