@@ -35,32 +35,32 @@ function updateWeatherImage(description) {
     // Weather descriptions image
     switch (description.toLowerCase()) {
         case 'haze':
-            imagePath = 'media/haze.png';
+            imagePath = './media/haze.png';
             break;
         case 'windy':
-            imagePath = 'media/windy.png';
+            imagePath = './media/windy.png';
             break;
         case 'sunny':
         case 'clear':
-            imagePath = 'media/sunny.png';
+            imagePath = './media/sunny.png';
             break;
         case 'rain':
         case 'rainy':
-            imagePath = 'media/rain.png';
+            imagePath = './media/rain.png';
             break;
         case 'cloudy':
-            imagePath = 'media/cloudy.png';
+            imagePath = './media/cloudy.png';
             break;
         case 'stormy':
         case 'thunderstorm':
-            imagePath = 'media/stormy.png';
+            imagePath = './media/stormy.png';
             break;
         case 'snow':
         case 'light snow':
-            imagePath = 'media/snow.png';
+            imagePath = './media/snow.png';
             break;
         default:
-            imagePath = 'media/default.gif'; // Default image if no match found
+            imagePath = './media/default.gif'; // Default image if no match found
             break;
     }
 
