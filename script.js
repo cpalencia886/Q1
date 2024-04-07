@@ -60,7 +60,7 @@ function updateWeatherImage(description) {
             imagePath = './media/snow.png';
             break;
         default:
-            imagePath = './media/default.gif'; // Default image if no match found
+            imagePath = './media/Default.gif'; // Default image if no match found
             break;
     }
 
