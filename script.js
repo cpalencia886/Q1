@@ -4,7 +4,7 @@ const locationKey = '52479';
 
 async function fetchWeatherData() {
     try {
-        const response = await fetch(`http://dataservice.accuweather.com/currentconditions/v1/${locationKey}?apikey=${apiKey}`);
+        const response = await fetch(`https://dataservice.accuweather.com/currentconditions/v1/${locationKey}?apikey=${apiKey}`);
         
         // Parse the response as JSON
         const data = await response.json();
